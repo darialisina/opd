@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1_task2
 {
-    internal interface IEventSubscribers
+    public interface IEventSubscribers
     {
 
         public void actionForSub(string mess);

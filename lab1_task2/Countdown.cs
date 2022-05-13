@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1_task2
 {
-    internal class Countdown
+    public class Countdown
     {
         private List<IEventSubscribers> subscribers;
 

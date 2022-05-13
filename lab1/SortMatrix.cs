@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1
 {
-    internal class SortMatrix
+    public class SortMatrix
     {
         public void sortMatrix(Matrix matrix, bool sign,  IBaseAlgorithm algorithm)
         {
