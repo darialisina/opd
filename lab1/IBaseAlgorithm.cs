@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1
 {
-    internal interface IBaseAlgorithm
+    public interface IBaseAlgorithm
     {
         public int Handle(int[] row);
     }

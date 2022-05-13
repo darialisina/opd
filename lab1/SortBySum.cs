@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1
 {
-    internal class SortBySum:IBaseAlgorithm
+    public class SortBySum:IBaseAlgorithm
     {
         public int Handle(int [] row)
         {
