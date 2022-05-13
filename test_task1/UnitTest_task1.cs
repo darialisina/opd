@@ -1,6 +1,8 @@
 using NUnit.Framework;
+using lab1_task2;
+using lab1;
 
-namespace lab1
+namespace tests
 {
     public class Tests
     {

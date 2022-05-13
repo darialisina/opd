@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1_task2
 {
-    internal class Subscriber1 : IEventSubscribers
+    public class Subscriber1 : IEventSubscribers
     {
         private string login;
         public Subscriber1(string login)

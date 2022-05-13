@@ -1,6 +1,6 @@
 ﻿namespace lab1_task2
 {
-    internal static class Program
+    public static class Program
     {
         static void Main()
         {
@@ -14,7 +14,9 @@
             countdown.subscribe(sub2);
             countdown.subscribe(sub3);
 
-            countdown.notifySubscribers(1000);
+            Console.WriteLine("Введите время ожидания: ");
+            int time = Convert.ToInt32(Console.ReadLine());
+            countdown.notifySubscribers(time);
         }
     }
 }
