@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab1
 {
-    internal class SortByMaxElement:IBaseAlgorithm
+    public class SortByMaxElement:IBaseAlgorithm
     {
         public int Handle(int[] row)
         {
